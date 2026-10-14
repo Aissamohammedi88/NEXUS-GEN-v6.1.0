@@ -1,0 +1,51 @@
+nexus-gen-engine/
+│
+├── .github/
+│   ├── workflows/
+│   │   └── ci.yml
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug-report.md
+│   │   └── feature-request.md
+│   └── pull_request_template.md
+│
+├── src/
+│   ├── __init__.py
+│   ├── nexus_gen.py           # Fichier principal fourni
+│   ├── analyser.py            # Module d'analyse séparé
+│   ├── generateur.py          # Module de génération séparé
+│   └── utils.py               # Fonctions utilitaires
+│
+├── docs/
+│   ├── README_FR.md
+│   ├── API.md
+│   ├── ARCHITECTURE.md
+│   └── CONTRIBUTING.md
+│
+├── tests/
+│   ├── __init__.py
+│   ├── test_analyser.py
+│   ├── test_generateur.py
+│   └── fixtures/
+│       ├── sample_python.py
+│       ├── sample_rust.rs
+│       └── sample_vulnerable.js
+│
+├── knowledge/
+│   └── knowledge_base.jsonl
+│
+├── generated/
+│   └── .gitkeep
+│
+├── reports/
+│   └── .gitkeep
+│
+├── cache/
+│   └── .gitkeep
+│
+├── requirements.txt
+├── setup.py
+├── pyproject.toml
+├── LICENSE
+├── SECURITY.md
+├── CHANGELOG.md
+└── README.md
